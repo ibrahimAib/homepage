@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>programing languge</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(function () {
+
+        $('#selA').click(function () {
+            $('input:checkbox').attr('checked', 'checked');
+        });
+        $('#dselA').click(function () {
+            $('input:checkbox').removeAttr('checked');
+        });
+
+
+    });
+</script>
+
+<body>
+
+    <input type="checkbox" id="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="js">
+    <label for="js">JS</label><br>
+    <hr>
+    <select name="languges" id="languge">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JS</option>
+    </select>
+    <br>
+    <br>
+    <input type="button" id="selA" value="selectAll">
+    <input type="button" id="dselA" value="diselectAll">
+
+</body>
+
+</html>
