@@ -2,6 +2,17 @@
     --mcolor: #ffffff;
     --scolor: #ff9a5f;
 }
+@media screen and (max-width: 1200px) {
+.menu {
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.menu {
+  width: 30%;
+}
+}
 * {
     list-style: none;
     margin: 0;
