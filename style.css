@@ -2,7 +2,7 @@
     --mcolor: #ffffff;
     --scolor: #ff9a5f;
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 .menu {
   width: 100%;
 }
@@ -12,7 +12,7 @@
 .menu {
   width: 30%;
 }
-}
+} */
 * {
     list-style: none;
     margin: 0;
@@ -104,6 +104,7 @@ html , body{
     width: 40%;
     min-width: 300px;
     margin-bottom: 30px;
+    flex-shrink: 0;
     /* background-color: coral; */
 }
 .home_imag{
