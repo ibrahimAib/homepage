@@ -7,17 +7,23 @@
     margin: 0;
     padding: 0;
 }
-html{
-    background-image: url('2.jfif');
-    padding: 0;
+hr{
+    border: none;
+    height: 1px;
+    background-color: var(--scolor);
+}
+html , body{
+    background-image: url('1.jpg');
+    padding: 0px;
+    margin: 0;
 }
 .header {
     height: 70px;
     width: 100%;
     position: absolute;
     top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     color: var(--mcolor);
     background: linear-gradient(180deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,212,255,0) 100%);
 }
@@ -61,9 +67,11 @@ html{
     display: table-cell;
     vertical-align: middle;
 }
+.bar{
+    height: 80px;
+}
 .body{
     width: 100%;
-    /* height: 800px; */
 }
 .bartion{
     width: auto;
@@ -96,8 +104,8 @@ html{
     transform: translate(-50%, -50%);
 }
 .home_content_contaner{
-    padding-top: 40px;
-    width: 50%;
+    /* padding-top: 40px; */
+    width: 40%;
     min-width: 300px;
 
     height: 400px;
@@ -114,7 +122,7 @@ html{
     text-align: center;
     width: 90%;
     color: var(--mcolor);
-    margin: 0 auto ;
+    /* margin: 0 auto ; */
 }
 .home_content h1{
     margin-bottom: 50px;
@@ -132,30 +140,57 @@ html{
     border: var(--mcolor) solid;
     color: var(--scolor);
 }
+
+
+
+/* imaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaages */
+.image{
+    height: 600px;
+    width: 100%;
+}
+.image_center{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+}
+.image1 img{
+    width: 100%;
+}
+
+
+
+/* foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooter */
 .footer{
-    position: absolute;
+    position:fixed;
     bottom: 0px;
     width: 100%;
     height: 70px;
-    background: linear-gradient(0deg, rgba(38,50,56,0.3897934173669467) 0%, rgba(209,209,209,0) 73%);
+    background: linear-gradient(77deg, rgba(47,144,176,1) 0%, rgba(49,25,109,1) 100%);
 
 }
 .footer_container{
     height: 100%;
-    width: 80%;
+    width: 45%;
     display: block;
     margin: 0 auto;
 }
 .Newsletter{
     height: 100%;
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
+    display: inline-block;
     /* background-color: violet; */
 }
 .new_form{
     height: 100%;
     display: table;
     float: right;
+    min-width: 150px;
 
 }
 .form{
@@ -166,12 +201,12 @@ html{
 .form_text{
     border: none;
     height: 30px;
-    width: 300px;
+    width: 70%;
     border-radius: 3px;
 }
 .form_btn{
     height: 30px;
-    width: 90px;
+    width: 25%;
     border: none;
     border-radius: 3px;
     background-color: var(--scolor);
@@ -181,6 +216,7 @@ html{
     height: 100%;
     display: table;
     float: left;
+    min-width: 160px;
 }
 .new_h1 h1{
     height: 100%;
